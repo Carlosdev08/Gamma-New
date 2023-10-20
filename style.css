@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#first{
+  
+  align-items: center;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+
+
+.articulos{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  gap: 2rem;
+}
+
+.header{ 
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  }
+
+
+.titulo-principal{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+.articulos{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+
+}
+.articulos article {
+  margin-top: 10px;
+  padding-left: 0;
+  padding-right: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.articulo-1, .articulo-2, .articulo-3, .articulo-4 {
+  border-right: 1px solid;
+  text-align: center;
+  gap: 10px;
+}
+
+div {
+  background-color: black;
+  height: 2px;
+  width: 100px;
+}
+
+/* img{
+ 
+  object-fit: cover;
+  width: 250px;
+} */
+
+.imagen{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  gap: 10px;
+  
+}
+
+.imagen-2, .imagen-3, .imagen-4{
+  width: 200px;
+ 
+  object-fit: cover;
+}
