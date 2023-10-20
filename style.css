@@ -22,7 +22,7 @@
 }
 
 .header{ 
-  padding: 0;
+  padding: 20px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -30,7 +30,9 @@
   border-top: 2px solid;
   border-bottom: 2px solid;
   }
-
+h1{
+  font-size: 2rem;
+}
 
 .titulo-principal{
   padding: 0;
@@ -80,8 +82,8 @@ div {
 } */
 
 .imagen{
-  width: 300px;
-  height: 300px;
+  width: 90px;
+  height: 50px;
   object-fit: cover;
   gap: 10px;
   
